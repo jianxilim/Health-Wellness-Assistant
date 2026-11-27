@@ -15,7 +15,7 @@ def create_glowing_title(root, text):
                  bg="#c9d6ff").place(relx=0.5, y=60+i*2, anchor="center")
     
     # Main bright text
-    tk.Label(root, text=text,
+    tk.Label(root, text=text, 
              font=("Segoe UI", 28, "bold"),
              fg="black",
              bg="#c9d6ff").place(relx=0.5, y=60, anchor="center")
