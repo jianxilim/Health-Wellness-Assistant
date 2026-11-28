@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 import time
 
 # ----------------------------
-# LIGHTED TITLE / GLOW EFFECT  
+# LIGHTED TITLE / GLOW EFFECT   
 # ----------------------------
 def create_glowing_title(root, text):
     # Shadow layers for soft glow
